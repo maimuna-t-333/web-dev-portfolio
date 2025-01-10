@@ -26,10 +26,10 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 20px 200px;
+    margin: 0 200px;
 }
 .nav-title{
-    font-weight: 800px;
+    font-weight: 800;
     font-size: 45px;
 }
 nav ul{
@@ -54,7 +54,13 @@ nav li a{
     background-color: #FFF8F3;
 }
 .banner-greetings{
+    font-size: 45px;
+    font-weight: 600;
 
+}
+.banner-title{
+    font-weight: bold;
+    font-size: 85px;
 }
 .banner-profile-picture{
     width: 580px;
@@ -78,11 +84,14 @@ nav li a{
     font-size: 35px;
     font-weight: bold;
     color:#181818;
+
+    
     
 }
-section-description{
+.section-description{
     font-size: 18px;
     color: #757575;
+    
     
 }
 /* about styles */
@@ -102,7 +111,7 @@ main section{
     margin: 0 auto;
 }
 .item-description{
-    font-weight:bold;
+    font-weight: 600;
 }
 .about-items{
     display: flex;
@@ -121,4 +130,47 @@ main section{
     padding: 30px;
     box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
     border-radius: 5px;
+}
+/* resume container styles */
+.resume-container{
+    display: flex;
+    gap: 24px;
+}
+.experience-description{
+    color: #757575;
+}
+.experience-subtitle{
+    color:#757575;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.resume hr{
+    margin: 30px 5px;
+}
+.resume-download-cv{
+    margin-top: 50px;
+}
+/* footer style */
+footer{
+    padding: 130px 230px;
+    display: flex;
+    
+    gap: 100px;
+}
+.footer-column{
+    width: 50%;
+    
+  
+    
+}
+footer input[type="text"],  footer input[type="email"] footer textarea{
+    height: 64px;
+    border-radius: 5px;
+    background-color: white;
+    display: block;
+    width: 100%;
+    padding: 10px 20px;
+    margin-bottom: 24px;
+    border: none;
 }
